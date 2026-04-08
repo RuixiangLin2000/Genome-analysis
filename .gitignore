@@ -1,0 +1,62 @@
+# =========================
+# 1. Hidden and temporary files
+# =========================
+.*
+!.gitignore
+~*
+*.swp
+*.tmp
+
+# =========================
+# 2. Raw sequencing data
+# =========================
+*.fastq
+*.fastq.gz
+*.fasta
+*.fa
+
+# =========================
+# 3. Intermediate files (alignment, variants, etc.)
+# =========================
+*.bam
+*.sam
+*.bai
+*.vcf
+*.bcf
+
+# =========================
+# 4. Output and intermediate directories
+# =========================
+results/
+output/
+intermediate/
+scratch/
+
+# =========================
+# 5. Log files
+# =========================
+*.log
+
+# =========================
+# 6. Annotation files
+# =========================
+*.gtf
+*.gff
+*.bed
+
+# =========================
+# 7. R data and tabular files
+# =========================
+*.Rdata
+*.tsv
+*.csv
+
+# =========================
+# 8. Symlinks (if present)
+# =========================
+*.lnk
+
+# =========================
+# 9. System-specific files
+# =========================
+.DS_Store
